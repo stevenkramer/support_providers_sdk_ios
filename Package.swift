@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZendeskSupportProvidersSDK",
-            path: "SupportProvidersSDK.xcframework"
+            path: "ZendeskSupportProvidersSDK.xcframework"
         ),
         .target(name: "ZendeskSupportProvidersSDKTargets",
                 dependencies: [
